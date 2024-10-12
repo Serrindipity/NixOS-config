@@ -1,3 +1,4 @@
+
 {
   lib,
   username,
@@ -45,7 +46,7 @@ with lib;
           exec-once = killall -q swaync;sleep .5 && swaync
           exec-once = nm-applet --indicator
           exec-once = lxqt-policykit-agent
-          exec-once = sleep 1.5 && swww img /home/${username}/Pictures/Wallpapers/beautifulmountainscape.jpg
+          exec-once = swww img Pictures/wallpapers/others/ghibli_garden.png
           monitor=,preferred,auto,1
           ${extraMonitorSettings}
           general {
@@ -63,7 +64,7 @@ with lib;
             kb_options = caps:super
             follow_mouse = 1
             touchpad {
-              natural_scroll = true
+              natural_scroll = false
               disable_while_typing = true
               scroll_factor = 0.8
             }
@@ -89,6 +90,7 @@ with lib;
             initial_workspace_tracking = 0
             mouse_move_enables_dpms = true
             key_press_enables_dpms = false
+            disable_hyprland_logo = true
           }
           animations {
             enabled = yes
@@ -143,6 +145,7 @@ with lib;
           bind = ${modifier},M,exec,spotify
           bind = ${modifier},Q,killactive,
           bind = ${modifier},P,pseudo,
+          bind = ${modifier}, V, exec, codium
           bind = ${modifier}SHIFT,I,togglesplit,
           bind = ${modifier},F,fullscreen,
           bind = ${modifier}SHIFT,F,togglefloating,

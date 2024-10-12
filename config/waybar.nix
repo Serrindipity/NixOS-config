@@ -184,7 +184,7 @@ with lib;
       ''
         * {
           font-family: JetBrainsMono Nerd Font Mono;
-          font-size: 16px;
+          font-size: 13px;
           border-radius: 0px;
           border: none;
           min-height: 0px;
@@ -238,9 +238,9 @@ with lib;
         }
         #window, #pulseaudio, #cpu, #memory, #idle_inhibitor {
           font-weight: bold;
-          margin: 4px 0px;
+          margin: 3px 0px;
           margin-left: 7px;
-          padding: 0px 18px;
+          padding: 0px 15px;
           background: #${config.stylix.base16Scheme.base04};
           color: #${config.stylix.base16Scheme.base00};
           border-radius: 24px 10px 24px 10px;
@@ -250,25 +250,25 @@ with lib;
           background: #${config.stylix.base16Scheme.base02};
           font-size: 28px;
           margin: 0px;
-          padding: 0px 30px 0px 15px;
+          padding: 0px 20px 0px 15px;
           border-radius: 0px 0px 40px 0px;
         }
         #custom-hyprbindings, #network, #battery,
         #custom-notification, #tray, #custom-exit {
           font-weight: bold;
-          background: #${config.stylix.base16Scheme.base0F};
+          background: #${config.stylix.base16Scheme.base04};
           color: #${config.stylix.base16Scheme.base00};
-          margin: 4px 0px;
+          margin: 3px 0px;
           margin-right: 7px;
           border-radius: 10px 24px 10px 24px;
-          padding: 0px 18px;
+          padding: 0px 15px;
         }
         #clock {
           font-weight: bold;
           color: #0D0E15;
-          background: linear-gradient(90deg, #${config.stylix.base16Scheme.base0E}, #${config.stylix.base16Scheme.base0C});
+          background: linear-gradient(90deg, #${config.stylix.base16Scheme.base00}, #${config.stylix.base16Scheme.base08});
           margin: 0px;
-          padding: 0px 15px 0px 30px;
+          padding: 0px 13px 0px 30px;
           border-radius: 0px 0px 0px 40px;
         }
       ''
