@@ -5,7 +5,7 @@
 
   # Hyprland Settings
   extraMonitorSettings = "";
-  wallpaperPath = /home/jonqu/Pictures/wallpapers/others/ghibli_garden.png;
+  wallpaperPath = ../../config/wallpapers/ghibli_garden.png;
 
   # Waybar Settings
   clock24h = false;
